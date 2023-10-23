@@ -1,0 +1,7 @@
+.myul{
+list-style: none;
+}
+
+.myul li a {
+	text-decoration-style: none;
+}
