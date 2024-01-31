@@ -1,0 +1,25 @@
+<?php
+include 'header.php' ;
+require_once 'admin/db.php';
+$query1=mysqli_query($conn,"select * from events order by evedate desc");
+?>
+<div class="courses_section">
+<div class="container text-center" >
+  <h2>أرشيف النشاطات</h2>
+    
+  <div class="row">
+    <div class="col-sm-12" >
+      <table class="table table-striped">
+      
+    </table>
+    <p id="left" style="text-align : left;"><a href='events.php'>النشاطات</a></p>          
+</div>
+
+  </div>
+</div>
+
+</div>
+
+<?php
+include 'footer.php';
+?>
